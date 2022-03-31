@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class AppTest 
 {
     @Test
-    public void shouldAnswerWithTrue()
+    public void testAPI()
     {
         RestAssured.baseURI = "https://620e3da1585fbc3359db4edf.mockapi.io/api/v1/users";
         RequestSpecification request = RestAssured.given();
